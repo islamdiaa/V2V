@@ -1,0 +1,31 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="126dp"
+        android:onClick="send"
+        android:text="Send!" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="240dp"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="240dp"
+        android:text="Start" />
+
+</AbsoluteLayout>
