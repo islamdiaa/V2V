@@ -27,18 +27,36 @@
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_x="3dp"
-        android:layout_y="171dp" >
+        android:layout_height="126dp"
+        android:layout_x="4dp"
+        android:layout_y="173dp" >
 
         <TextView
             android:id="@+id/gpstext"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="304dp"
+            android:layout_height="46dp"
             android:layout_x="23dp"
             android:layout_y="185dp"
             android:text="GPS Location:"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </ScrollView>
+
+    <TextView
+        android:id="@+id/recmsg"
+        android:layout_width="304dp"
+        android:layout_height="127dp"
+        android:layout_x="6dp"
+        android:layout_y="310dp"
+        android:text="Data Received:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="7dp"
+        android:onClick="gotomapactivity"
+        android:text="Map" />
 
 </AbsoluteLayout>
