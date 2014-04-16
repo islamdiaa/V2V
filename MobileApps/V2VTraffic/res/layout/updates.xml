@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="306dp"
+        android:layout_height="101dp"
+        android:layout_x="6dp"
+        android:layout_y="12dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="118dp"
+        android:onClick="send"
+        android:text="Send!" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="3dp"
+        android:layout_y="171dp" >
+
+        <TextView
+            android:id="@+id/gpstext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="23dp"
+            android:layout_y="185dp"
+            android:text="GPS Location:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </ScrollView>
+
+</AbsoluteLayout>
