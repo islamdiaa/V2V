@@ -1,0 +1,7 @@
+from WifiServer import *
+
+Server = WifiServer()
+Server.start()
+Server.Accept()
+print Server.Receive()
+Server.CloseConnection() 
