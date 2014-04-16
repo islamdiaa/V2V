@@ -1,4 +1,4 @@
 V2V
 ===
 
-Python framework to create application on a vehicle to vehicle ad hoc network. 
+Python framework to create applications on a vehicle to vehicle ad hoc network. 
